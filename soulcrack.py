@@ -1,5 +1,3 @@
-
-
 import telebot
 import subprocess
 import datetime
@@ -95,8 +93,6 @@ def add_user(message):
 
     bot.reply_to(message, response)
 
-
-
 @bot.message_handler(commands=['remove'])
 def remove_user(message):
     user_id = str(message.chat.id)
@@ -120,7 +116,6 @@ def remove_user(message):
 
     bot.reply_to(message, response)
 
-
 @bot.message_handler(commands=['clearlogs'])
 def clear_logs_command(message):
     user_id = str(message.chat.id)
@@ -138,8 +133,6 @@ def clear_logs_command(message):
     else:
         response = "Poda Sunni 🤣"
     bot.reply_to(message, response)
-
- 
 
 @bot.message_handler(commands=['allusers'])
 def show_all_users(message):
@@ -165,7 +158,6 @@ def show_all_users(message):
         response = "Gomma Punda 🤣"
     bot.reply_to(message, response)
 
-
 @bot.message_handler(commands=['logs'])
 def show_recent_logs(message):
     user_id = str(message.chat.id)
@@ -183,7 +175,6 @@ def show_recent_logs(message):
     else:
         response = "Thaiyoli Punda 🤣"
         bot.reply_to(message, response)
-
 
 @bot.message_handler(commands=['id'])
 def show_user_id(message):
@@ -230,13 +221,11 @@ def handle_bgmi(message):
                 subprocess.run(full_command, shell=True)
                 response = f"✅ Attack Successfully Completed 🇮🇳 ip: {ip} port: {port} port: {time}"
         else:
-            response = "✅A͢v͢a͢i͢l͢a͢b͢l͢e͢ r͢i͢g͢h͢t͢ n͢o͢w͢✅ :- /bgmi <ip> <port> <time>"  
+            response = "✅ Service available! Use the command: /bgmi <ip> <port> <time> to proceed."  
     else:
         response = " ACCESS VAANGUDA SUNNI PUNDA 🤣."
 
     bot.reply_to(message, response)
-
-
 
 @bot.message_handler(commands=['mylogs'])
 def show_command_logs(message):
@@ -256,8 +245,7 @@ def show_command_logs(message):
         response = "OTHA 🤣"
 
     bot.reply_to(message, response)
-
-
+    
 @bot.message_handler(commands=['help'])
 def show_help(message):
     help_text ='''🤖 Available commands:
@@ -355,9 +343,6 @@ def broadcast_message(message):
         response = "BOT UH PUNDA 🤣"
 
     bot.reply_to(message, response)
-
-
-
 
 while True:
     try:
