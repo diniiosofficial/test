@@ -1,0 +1,331 @@
+UserID: -1002266626459 | Time: 2025-03-31 12:30:51.944317 | Command: /bgmi_compiled | ip: 4.213.65.120 | port: 16711 | Time: 180
+Username: UserID: -1002266626459
+IP: 4.213.65.120
+Port: 16711
+Duration: 180 seconds
+
+UserID: -1002266626459 | Time: 2025-03-31 12:34:34.263157 | Command: /bgmi_compiled | ip: 737.443.44.33 | port: 63738 | Time: 180
+Username: UserID: -1002266626459
+IP: 737.443.44.33
+Port: 63738
+Duration: 180 seconds
+
+UserID: -1002266626459 | Time: 2025-03-31 13:27:40.044257 | Command: /bgmi_compiled | ip: 20.235.143.160 | port: 20707 | Time: 70
+Username: UserID: -1002266626459
+IP: 20.235.143.160
+Port: 20707
+Duration: 70 seconds
+
+UserID: -1002266626459 | Time: 2025-03-31 13:30:31.732248 | Command: /bgmi_compiled | ip: 11.111.1112.222 | port: 11222 | Time: 11
+Username: UserID: -1002266626459
+IP: 11.111.1112.222
+Port: 11222
+Duration: 11 seconds
+
+UserID: -1002266626459 | Time: 2025-03-31 15:23:12.343329 | Command: /bgmi_compiled | ip: 20.193.140.138 | port: 8700 | Time: 180
+Username: UserID: -1002266626459
+IP: 20.193.140.138
+Port: 8700
+Duration: 180 seconds
+
+UserID: -1002266626459 | Time: 2025-03-31 15:24:13.292311 | Command: /bgmi_compiled | ip: 20.43.191.249 | port: 8080 | Time: 180
+UserID: -1002266626459 | Time: 2025-03-31 15:26:24.189078 | Command: /bgmi_compiled | ip: 20.198.65.141 | port: 20001 | Time: 180
+Username: UserID: -1002266626459
+IP: 20.198.65.141
+Port: 20001
+Duration: 180 seconds
+
+UserID: -1002266626459 | Time: 2025-03-31 15:33:09.642265 | Command: /bgmi_compiled | ip: 20.219.6.192 | port: 15299 | Time: 180
+Username: UserID: -1002266626459
+IP: 20.219.6.192
+Port: 15299
+Duration: 180 seconds
+
+UserID: -1002266626459 | Time: 2025-03-31 15:47:53.441385 | Command: /bgmi_compiled | ip: 20.204.18.99 | port: 10044 | Time: 240
+Username: UserID: -1002266626459
+IP: 20.204.18.99
+Port: 10044
+Duration: 240 seconds
+
+UserID: -1002266626459 | Time: 2025-03-31 16:00:34.861822 | Command: /bgmi_compiled | ip: 4.213.65.184 | port: 27633 | Time: 240
+Username: UserID: -1002266626459
+IP: 4.213.65.184
+Port: 27633
+Duration: 240 seconds
+
+UserID: -1002266626459 | Time: 2025-03-31 16:05:01.281763 | Command: /bgmi_compiled | ip: 4.213.65.184 | port: 27633 | Time: 90
+Username: UserID: -1002266626459
+IP: 4.213.65.184
+Port: 27633
+Duration: 90 seconds
+
+UserID: -1002266626459 | Time: 2025-04-01 12:17:35.254472 | Command: /bgmi_compiled | ip: 4.213.64.248 | port: 26565 | Time: 180
+Username: UserID: -1002266626459
+IP: 4.213.64.248
+Port: 26565
+Duration: 180 seconds
+
+UserID: -1002266626459 | Time: 2025-04-01 12:27:19.167841 | Command: /bgmi_compiled | ip: 4.247.19.14 | port: 12025 | Time: 150
+Username: UserID: -1002266626459
+IP: 4.247.19.14
+Port: 12025
+Duration: 150 seconds
+
+UserID: -1002266626459 | Time: 2025-04-01 12:31:48.906216 | Command: /bgmi_compiled | ip: 1 | port: 1 | Time: 1
+Username: UserID: -1002266626459
+IP: 1
+Port: 1
+Duration: 1 seconds
+
+UserID: -1002266626459 | Time: 2025-04-01 12:34:10.844419 | Command: /bgmi_compiled | ip: 20.235.95.251 | port: 22465 | Time: 70
+Username: UserID: -1002266626459
+IP: 20.235.95.251
+Port: 22465
+Duration: 70 seconds
+
+UserID: -1002266626459 | Time: 2025-04-01 14:28:08.130617 | Command: /bgmi_compiled | ip: 20.235.143.119 | port: 19794 | Time: 180
+Username: UserID: -1002266626459
+IP: 20.235.143.119
+Port: 19794
+Duration: 180 seconds
+
+UserID: -1002266626459 | Time: 2025-04-01 18:25:05.602226 | Command: /bgmi_compiled | ip: 20.235.138.20 | port: 12907 | Time: 180
+Username: UserID: -1002266626459
+IP: 20.235.138.20
+Port: 12907
+Duration: 180 seconds
+
+UserID: -1002266626459 | Time: 2025-04-02 04:03:03.743596 | Command: /bgmi_compiled | ip: 1 | port: 1 | Time: 1
+Username: UserID: -1002266626459
+IP: 1
+Port: 1
+Duration: 1 seconds
+
+UserID: -1002266626459 | Time: 2025-04-02 08:16:42.666218 | Command: /bgmi_compiled | ip: 20.235.91.70 | port: 20752 | Time: 180
+Username: UserID: -1002266626459
+IP: 20.235.91.70
+Port: 20752
+Duration: 180 seconds
+
+UserID: -1002266626459 | Time: 2025-04-02 10:31:28.711030 | Command: /bgmi_compiled | ip: 20.204.88.149 | port: 20960 | Time: 240
+Username: UserID: -1002266626459
+IP: 20.204.88.149
+Port: 20960
+Duration: 240 seconds
+
+UserID: -1002266626459 | Time: 2025-04-02 11:00:37.922410 | Command: /bgmi_compiled | ip: 20.235.143.63 | port: 11493 | Time: 180
+Username: UserID: -1002266626459
+IP: 20.235.143.63
+Port: 11493
+Duration: 180 seconds
+
+UserID: -1002266626459 | Time: 2025-04-02 12:10:07.966674 | Command: /bgmi_compiled | ip: 20.235.91.106 | port: 28370 | Time: 180
+Username: UserID: -1002266626459
+IP: 20.235.91.106
+Port: 28370
+Duration: 180 seconds
+
+UserID: -1002266626459 | Time: 2025-04-02 12:28:39.049910 | Command: /bgmi_compiled | ip: 20.235.18.183 | port: 21148 | Time: 180
+Username: UserID: -1002266626459
+IP: 20.235.18.183
+Port: 21148
+Duration: 180 seconds
+
+UserID: -1002266626459 | Time: 2025-04-02 13:34:44.985705 | Command: /bgmi_compiled | ip: 1 | port: 1 | Time: 5
+Username: UserID: -1002266626459
+IP: 1
+Port: 1
+Duration: 5 seconds
+
+UserID: -1002579744297 | Time: 2025-04-02 13:39:18.038167 | Command: /bgmi_compiled | ip: 1 | port: 1 | Time: 1
+Username: UserID: -1002579744297
+IP: 1
+Port: 1
+Duration: 1 seconds
+
+UserID: -1002579744297 | Time: 2025-04-02 13:41:49.949817 | Command: /bgmi_compiled | ip: 1 | port: 1 | Time: 60
+Username: UserID: -1002579744297
+IP: 1
+Port: 1
+Duration: 60 seconds
+
+UserID: -1002579744297 | Time: 2025-04-02 13:41:55.631917 | Command: /bgmi_compiled | ip: 1 | port: 1 | Time: 60
+Username: UserID: -1002579744297
+IP: 1
+Port: 1
+Duration: 60 seconds
+
+UserID: -1002266626459 | Time: 2025-04-02 14:55:35.362257 | Command: /bgmi_compiled | ip: 1 | port: 1 | Time: 10
+Username: UserID: -1002266626459
+IP: 1
+Port: 1
+Duration: 10 seconds
+
+UserID: -1002266626459 | Time: 2025-04-02 15:07:16.152782 | Command: /bgmi_compiled | ip: 1 | port: 1 | Time: 20
+Username: UserID: -1002266626459
+IP: 1
+Port: 1
+Duration: 20 seconds
+
+UserID: -1002266626459 | Time: 2025-04-02 15:18:28.263466 | Command: /bgmi_compiled | ip: 20.235.93.195 | port: 11317 | Time: 180
+Username: UserID: -1002266626459
+IP: 20.235.93.195
+Port: 11317
+Duration: 180 seconds
+
+UserID: -1002266626459 | Time: 2025-04-02 15:38:52.341890 | Command: /bgmi_compiled | ip: 52.140.18.42 | port: 13725 | Time: 120
+Username: UserID: -1002266626459
+IP: 52.140.18.42
+Port: 13725
+Duration: 120 seconds
+
+UserID: -1002266626459 | Time: 2025-04-02 19:15:04.210294 | Command: /bgmi_compiled | ip: 20.219.77.204 | port: 21830 | Time: 120
+Username: UserID: -1002266626459
+IP: 20.219.77.204
+Port: 21830
+Duration: 120 seconds
+
+UserID: -1002266626459 | Time: 2025-04-03 07:39:34.724926 | Command: /bgmi_compiled | ip: 52.140.1.159 | port: 15050 | Time: 120
+Username: UserID: -1002266626459
+IP: 52.140.1.159
+Port: 15050
+Duration: 120 seconds
+
+UserID: -1002266626459 | Time: 2025-04-03 12:52:41.256626 | Command: /bgmi_compiled | ip: 20.219.164.111 | port: 18405 | Time: 120
+Username: UserID: -1002266626459
+IP: 20.219.164.111
+Port: 18405
+Duration: 120 seconds
+
+UserID: -1002266626459 | Time: 2025-04-04 07:57:22.876477 | Command: /bgmi_compiled | ip: 4.213.65.14 | port: 15499 | Time: 180
+Username: UserID: -1002266626459
+IP: 4.213.65.14
+Port: 15499
+Duration: 180 seconds
+
+UserID: -1002266626459 | Time: 2025-04-04 08:03:13.470079 | Command: /bgmi_compiled | ip: 20.204.159.247 | port: 29146 | Time: 180
+Username: UserID: -1002266626459
+IP: 20.204.159.247
+Port: 29146
+Duration: 180 seconds
+
+UserID: -1002266626459 | Time: 2025-04-04 10:38:50.829358 | Command: /bgmi_compiled | ip: 20.198.104.235 | port: 12727 | Time: 180
+Username: UserID: -1002266626459
+IP: 20.198.104.235
+Port: 12727
+Duration: 180 seconds
+
+UserID: -1002266626459 | Time: 2025-04-04 10:53:03.919213 | Command: /bgmi_compiled | ip: 20.198.107.63 | port: 10643 | Time: 180
+Username: UserID: -1002266626459
+IP: 20.198.107.63
+Port: 10643
+Duration: 180 seconds
+
+UserID: -1002266626459 | Time: 2025-04-04 11:07:26.752459 | Command: /bgmi_compiled | ip: 4.247.19.82 | port: 17589 | Time: 180
+Username: UserID: -1002266626459
+IP: 4.247.19.82
+Port: 17589
+Duration: 180 seconds
+
+UserID: -1002266626459 | Time: 2025-04-04 11:10:38.570100 | Command: /bgmi_compiled | ip: 4.247.19.82 | port: 17589 | Time: 180
+UserID: -1002266626459 | Time: 2025-04-04 11:10:38.635288 | Command: /bgmi_compiled | ip: 4.247.19.82 | port: 17589 | Time: 180
+UserID: -1002266626459 | Time: 2025-04-04 11:10:38.653347 | Command: /bgmi_compiled | ip: 4.247.19.82 | port: 17589 | Time: 180
+UserID: -1002266626459 | Time: 2025-04-04 11:10:38.657623 | Command: /bgmi_compiled | ip: 4.247.19.82 | port: 17589 | Time: 180
+UserID: -1002266626459 | Time: 2025-04-04 11:10:38.669542 | Command: /bgmi_compiled | ip: 4.247.19.82 | port: 17589 | Time: 180
+UserID: -1002266626459 | Time: 2025-04-04 11:10:38.702905 | Command: /bgmi_compiled | ip: 4.247.19.82 | port: 17589 | Time: 180
+Username: UserID: -1002266626459
+IP: 4.247.19.82
+Port: 17589
+Duration: 180 seconds
+
+Username: UserID: -1002266626459
+IP: 4.247.19.82
+Port: 17589
+Duration: 180 seconds
+
+Username: UserID: -1002266626459
+IP: 4.247.19.82
+Port: 17589
+Duration: 180 seconds
+
+Username: UserID: -1002266626459
+IP: 4.247.19.82
+Port: 17589
+Duration: 180 seconds
+
+Username: UserID: -1002266626459
+IP: 4.247.19.82
+Port: 17589
+Duration: 180 seconds
+
+Username: UserID: -1002266626459
+IP: 4.247.19.82
+Port: 17589
+Duration: 180 seconds
+
+UserID: -1002266626459 | Time: 2025-04-04 11:26:23.264880 | Command: /bgmi_compiled | ip: 4.247.19.82 | port: 17589 | Time: 180
+Username: UserID: -1002266626459
+IP: 4.247.19.82
+Port: 17589
+Duration: 180 seconds
+
+UserID: -1002266626459 | Time: 2025-04-04 16:58:44.491812 | Command: /bgmi_compiled | ip: 20.198.108.71 | port: 12583 | Time: 180
+Username: UserID: -1002266626459
+IP: 20.198.108.71
+Port: 12583
+Duration: 180 seconds
+
+UserID: -1002266626459 | Time: 2025-04-04 17:03:03.038313 | Command: /bgmi_compiled | ip: 20.198.106.109 | port: 14034 | Time: 180
+Username: UserID: -1002266626459
+IP: 20.198.106.109
+Port: 14034
+Duration: 180 seconds
+
+UserID: -1002266626459 | Time: 2025-04-04 17:29:29.002457 | Command: /bgmi_compiled | ip: 20.204.16.154 | port: 12708 | Time: 180
+Username: UserID: -1002266626459
+IP: 20.204.16.154
+Port: 12708
+Duration: 180 seconds
+
+UserID: -1002266626459 | Time: 2025-04-04 17:44:54.883880 | Command: /bgmi_compiled | ip: 20.204.181.19 | port: 11709 | Time: 180
+Username: UserID: -1002266626459
+IP: 20.204.181.19
+Port: 11709
+Duration: 180 seconds
+
+UserID: -1002266626459 | Time: 2025-04-04 18:13:46.379450 | Command: /bgmi_compiled | ip: 20.204.18.23 | port: 10790 | Time: 180
+Username: UserID: -1002266626459
+IP: 20.204.18.23
+Port: 10790
+Duration: 180 seconds
+
+UserID: -1002266626459 | Time: 2025-04-04 18:19:10.164249 | Command: /bgmi_compiled | ip: 20.219.1.52 | port: 12284 | Time: 180
+Username: UserID: -1002266626459
+IP: 20.219.1.52
+Port: 12284
+Duration: 180 seconds
+
+UserID: -1002266626459 | Time: 2025-04-04 18:55:53.034510 | Command: /bgmi_compiled | ip: 20.219.76.230 | port: 24260 | Time: 180
+Username: UserID: -1002266626459
+IP: 20.219.76.230
+Port: 24260
+Duration: 180 seconds
+
+UserID: -1002266626459 | Time: 2025-04-04 19:02:37.858456 | Command: /bgmi_compiled | ip: 20.204.16.234 | port: 25837 | Time: 180
+Username: UserID: -1002266626459
+IP: 20.204.16.234
+Port: 25837
+Duration: 180 seconds
+
+UserID: -1002266626459 | Time: 2025-04-05 04:04:19.888283 | Command: /bgmi_compiled | ip: 20.219.76.241 | port: 23222 | Time: 999
+UserID: -1002266626459 | Time: 2025-04-05 04:04:20.083449 | Command: /bgmi_compiled | ip: 20.219.76.241 | port: 23222 | Time: 999
+Username: UserID: -1002266626459
+IP: 20.219.76.241
+Port: 23222
+Duration: 999 seconds
+
+Username: UserID: -1002266626459
+IP: 20.219.76.241
+Port: 23222
+Duration: 999 seconds
+
